@@ -1,14 +1,11 @@
 import { AppConfig } from '../utils/AppConfig';
 
-type ILogoProps = {
+/* type ILogoProps = {
   xl?: boolean;
-};
+}; */
 
-const Logo = (props: ILogoProps) => {
-  const size = '44';
-  const fontStyle = props.xl
-    ? 'font-semibold text-3xl'
-    : 'font-semibold text-xl';
+const Logo = () => {
+  const fontStyle = 'font-semibold text-3xl';
 
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
