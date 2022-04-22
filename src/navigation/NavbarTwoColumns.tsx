@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 import { Logo } from '../templates/Logo';
 
-type INavbarProps = {
-  /*   logo: ReactNode; */
-  /*   children: ReactNode; */
-};
+/* type INavbarProps = {
+    logo: ReactNode;
+    children: ReactNode;
+}; */
 
 const NavbarTwoColumns = (
   <div className="flex flex-wrap justify-between items-center">
