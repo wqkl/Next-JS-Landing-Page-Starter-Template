@@ -1,12 +1,10 @@
-import { ReactNode } from 'react';
-
 import Link from 'next/link';
 
 import { Logo } from '../templates/Logo';
 
 type INavbarProps = {
-  logo: ReactNode;
-  children: ReactNode;
+  /*   logo: ReactNode;
+  children: ReactNode; */
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
