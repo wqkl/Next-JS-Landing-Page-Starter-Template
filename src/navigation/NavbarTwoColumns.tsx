@@ -12,7 +12,7 @@ const NavbarTwoColumns = () => (
     <div>
       <Link href="/">
         <a>
-          <Logo xl />
+          <Logo />
         </a>
       </Link>
     </div>
