@@ -1,12 +1,10 @@
-import { ReactNode } from 'react';
-
 import Link from 'next/link';
 
 import { Logo } from '../templates/Logo';
 
 type INavbarProps = {
   /*   logo: ReactNode; */
-  children: ReactNode;
+  /*   children: ReactNode; */
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
@@ -20,9 +18,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
     </div>
 
     <nav>
-      <ul className="navbar flex items-center font-medium text-xl text-gray-800">
-        {props.children}
-      </ul>
+      <ul className="navbar flex items-center font-medium text-xl text-gray-800"></ul>
     </nav>
 
     <style jsx>
