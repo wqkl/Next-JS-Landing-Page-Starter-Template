@@ -5,7 +5,7 @@ const VerticalFeatures = () => (
   <Section title="Diamon Mitra Cipta " description="">
     <VerticalFeatureRow
       title="Kenapa Proteksi 8"
-      description="Tabungan hanya memberi bunga/bonus sekitar 0.1 hingga 0.15% per tahun, dibandingkan proteksi 8, yaitu 8%. Proteksi 8 tidak dikenakan pajak."
+      description="Tabungan hanya memberi bunga/bonus sekitar 0.1% hingga 0.15% per tahun, dibandingkan proteksi 8, yaitu 8%. Proteksi 8 tidak dikenakan pajak."
       image="/assets/images/feature.svg"
       imageAlt="First feature alt text"
     />
