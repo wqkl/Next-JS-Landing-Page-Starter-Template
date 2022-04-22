@@ -9,10 +9,7 @@ const Logo = () => {
 
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
-      <img
-        src="/assets/images/DMCLOGOOsmallest-removebg-preview-new.png"
-        alt="DMC"
-      />
+      <img src="/assets/images/pixlr-bg-result.png" alt="DMC" />
 
       {AppConfig.site_name}
     </span>
