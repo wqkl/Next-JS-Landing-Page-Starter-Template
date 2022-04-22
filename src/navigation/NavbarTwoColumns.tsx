@@ -7,7 +7,7 @@ import { Logo } from '../templates/Logo';
     children: ReactNode;
 }; */
 
-const NavbarTwoColumns = (
+const NavbarTwoColumns = () => (
   <div className="flex flex-wrap justify-between items-center">
     <div>
       <Link href="/">
